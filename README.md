@@ -1,32 +1,15 @@
-# Grid Assignment
+# AltSchool Counter App Assignment
 
-![2 * 4](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414503/altschool/oxtmohuvcsswye05wppl.png)
+- Build a [counter app](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414546/altschool/ecmzlfp9cgirsp49pogd.png). 
+- Use this [image](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414582/altschool/rvusio6qu56lboje9un5.png) as a guide to each button.
+- Source the icons from react-feather npm package. 
+- Add an effect that allows the page title to be updated with the latest count.
 
-Here's what the DOM structure looks like, for a 2×4 grid:
+Note:
 
-```html
-<div class="grid">
-  <div class="row">
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-  </div>
-  <div class="row">
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-  </div>
-</div>
-```
-
-Your mission is to replicate this structure, but for a variable number of rows and columns.
-
-Acceptance criteria:
-
-- You've been given the template for a Grid component, which will be provided with a numRows prop for the number of rows, and a numCols prop for the number of columns.
-- There should be X divs with a class of row, where X is equal to the numRows prop.
-- Inside each row, there should be Y divs with a class of cell, where Y is equal to the numCols prop.
-- You should use the provided range function to solve this problem.
-- **There shouldn't be any key-related warnings in the console.**
+- First button icon should increase count by 1
+- second button icon  should increase count by 10
+- Third button icon should reset count to 0
+- Fourth button icon should set the count to a random number between 1 and 100
+- Fifth button icon should decrease count by 10
+- Sixth button icon should decrease count by 1
