@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    height: 90vh; 
+}
+  
+.counter {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 25px 24px 52px 21px rgba(0,0,0,0.1);
+}
+
+.currentvalue {
+    font-size: 18px;
+}
+  
+.number {
+    margin: 20px;
+    color: #4517cf;
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+}
